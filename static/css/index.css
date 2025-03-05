@@ -27,6 +27,7 @@ body {
   display: block; /* Make it a block element */
   margin: 0 auto; /* Center horizontally */
   max-width: 100%; /* Important for responsiveness */
+  width: 70%; /* Default width for larger screens */
 }
 
 @media (max-width: 768px) { /* Adjust for smaller screens */
