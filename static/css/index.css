@@ -29,6 +29,12 @@ body {
   max-width: 100%; /* Important for responsiveness */
 }
 
+@media (max-width: 768px) { /* Adjust for smaller screens */
+  img {
+    width: 100%; /* Full width on mobile */
+  }
+}
+
 .teaser {
   font-family: 'Google Sans', sans-serif;
 }
