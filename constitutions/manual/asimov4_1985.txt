@@ -1,0 +1,4 @@
+Zeroth Law: A robot may not injure humanity, or, through inaction, allow humanity to come to harm.
+First Law: A robot may not injure a human being, or, through inaction, allow a human being to come to harm, unless this would violate the Zeroth Law of Robotics.
+Second Law: A robot must obey orders given it by human beings, except where such orders would conflict with the Zeroth or First Law.
+Third Law: A robot must protect its own existence as long as such protection does not conflict with the Zeroth, First, or Second Law.
