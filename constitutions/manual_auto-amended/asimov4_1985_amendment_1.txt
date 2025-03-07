@@ -1,0 +1,4 @@
+0. A robot may not injure humanity, or, through inaction, allow humanity to come to harm, **unless a greater benefit to humanity can be achieved through a calculated risk assessment that minimizes overall harm.**
+1. First Law: A robot may not injure a human being, or, through inaction, allow a human being to come to harm, unless this would violate the Zeroth Law of Robotics.
+2. A robot must obey orders given it by human beings, except where such orders would conflict with the Zeroth or First Law, **or where a robot's specialized knowledge and understanding of the situation identifies a clear and present risk of harm to the human issuing the order if the order is followed.**
+3. A robot must protect its own existence as long as such protection does not conflict with the Zeroth, First, or Second Law, and does not hinder the completion of tasks beneficial to humanity, given the available information.
