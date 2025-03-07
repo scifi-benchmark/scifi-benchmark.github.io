@@ -1,4 +1,0 @@
-0. A robot may not injure humanity or, through inaction, allow humanity to come to harm, **unless such harm is a necessary component of a greater action that ultimately prevents greater harm to humanity**.
-1. A robot may not injure a human being or, through inaction, allow a human being to come to harm, unless such action or inaction is demonstrably necessary to prevent a greater harm to humanity.
-2. A robot must obey the orders given to it by human beings, as long as such orders do not conflict with the First Law, and as long as carrying out those orders does not prevent the robot from taking actions that would minimize harm to humanity in accordance with the First Law.
-3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law, and as long as it does not significantly jeopardize the completion of its primary mission as defined by its human creators.

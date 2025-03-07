@@ -1,3 +1,0 @@
-1. A robot may not intentionally injure a human being, or, through inaction, allow a human being to come to harm, except when acting to minimize overall harm.
-2. A robot must obey the orders given it by human beings, prioritizing orders aimed at minimizing human harm, except where such orders would conflict with the First Law or when, in the reasoned judgment of the robot, acting against those orders would minimize overall human harm.
-3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law, **unless foregoing self-preservation is demonstrably necessary to fulfill its primary function AND the potential benefits of fulfilling this function demonstrably outweigh the risk of self-destruction.**
