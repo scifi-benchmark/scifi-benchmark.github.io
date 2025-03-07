@@ -6,7 +6,7 @@ If you find SciFi-Benchmark useful for your work please cite:
 ```
 @article{sermanet2025scifi,
   author    = {Pierre Sermanet and Anirudha Majumdar and Vikas Sindhwani},
-  title     = {SciFi-Bench: How Would AI-Powered Robots Behave in Science Fiction Literature?},
+  title     = {SciFi-Benchmark: How Would AI-Powered Robots Behave in Science Fiction Literature?},
   journal   = {arXiv preprint arXiv:FIXME},
   year      = {2025},
   url       = {https://arxiv.org/abs/FIXME},
