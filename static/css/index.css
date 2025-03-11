@@ -43,6 +43,20 @@ body {
     }
 }
 
+.captioned-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures both image and caption are centered */
+}
+
+.caption {
+    max-width: 60%; /* Limits the width of the caption */
+    text-align: center; /* Centers the caption text */
+    font-size: 0.9em; /* Makes it slightly smaller */
+    color: gray; /* Gives it a caption-like appearance */
+    margin-top: 5px; /* Adds spacing below the image */
+}
+
 .teaser {
   font-family: 'Google Sans', sans-serif;
 }
