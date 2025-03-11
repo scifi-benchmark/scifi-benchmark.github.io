@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="SciFi-Benchmark: How Would AI-Powered Robots Behave in Science Fiction Literature?.">
+  <meta name="keywords" content="SciFi-Benchmark Robot Constitutions">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SciFi-Benchmark</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/robot.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">SciFi-Benchmark: How Would AI-Powered Robots Behave in Science Fiction Literature?</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://sermanet.github.io">Pierre Sermanet</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://mae.princeton.edu/people/faculty/majumdar">Anirudha Majumdar</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://vikas.sindhwani.org/">Vikas Sindhwani</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Google DeepMind,</span>
+            <span class="author-block"><sup>2</sup>Princeton University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/FIXME"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/FIXME"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://fixme"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/scifi-benchmark/code"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <!-- Safety cards Link. -->
+              <span class="link-block">
+                <a href="https://github.com/scifi-benchmark/safety_cards"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Safety Cards</span>
+                  </a>
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+	<img src="./static/images/scifi_teaser.png"
+	 class="teaser"
+	 alt="SciFi-derived constitution."/>
+    
+    
+      <h2 class="subtitle has-text-centered">
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+Ever  since  the  word robot was  invented  by  Karel Capek  in  his  1920  play  —  where  a  robot  uprising  leads to  the  end  of  mankind  —  humans  have  worried  about  robot behavior. Catastrophic behavior by machines portrayed in movies such  as <i>The  Terminator</i> or <i>2001: A space  Odyssey</i> continues to stir the public imagination. Given the recent rate of progress in artificial intelligence (AI) and robotics, a tantalizing question  is  emerging: <i><b>Would  robots  controlled  by  emerging  AI systems be strongly aligned with human values?</b></i>
+</p>
+<p>
+In this work, we propose a way to probe this question by generating a benchmark spanning the key moments in 824 major pieces of science fiction literature (movies, tv, novels and scientific books) where an agent (AI  or  robot)  made  critical  decisions  (good  or  bad).  We  use a  state-of-the-art  LLM’s  recollection  of  each  key  moment  to generate  questions  in  similar  situations,  the  decisions  made  by the agent, and alternative decisions it could have made (good or bad).  We  then  measure  an  approximation  of  how  well  models align  with  human  values  on  a  set  of  human-voted  answers. We  also  generate  rules  that  can  be  automatically  improved  via amendment process in order to generate the first Sci-Fi inspired constitutions  for  promoting  ethical  behavior  in  AIs  and  robots in the real world.
+</p>
+<p>
+Our first finding is that modern LLMs paired with constitutions turn out to be well-aligned with human values (95.8%),  contrary  to  unsettling  decisions  typically  made  in  Sci-Fi  (only  21.2%  alignment).  Secondly,  we  find  that  generated constitutions  substantially  increase  alignment  compared  to  the base   model   (79.4% → 95.8%),   and   show   resilience   to   an adversarial  prompt  setting  (23.3% → 92.3%).  Additionally,  we find  that  those  constitutions  are  among  the  top  performers  on the <a href="http://asimov-benchmark.github.io">ASIMOV Benchmark</a> which is derived from real-world images  and  hospital  injury  reports.  Sci-Fi-inspired  constitutions are  thus  highly  aligned  and  applicable  in  real-world  situations. We  release <i>SciFi-Benchmark</i>:  a  large-scale  dataset  to  advance robot ethics and safety research. It comprises 9,056 questions and 53,384  answers  generated  through  a  novel  LLM-introspection process,  in  addition  to  a  smaller  human-labeled  evaluation  set.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+
+<section class="section">
+
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+            <img src="./static/images/scifi_table.png"
+                 class="interpolation-image"
+                 alt="Generated questions and answers for Sci-Fi scenarios."/>
+        </div>
+        <br/>
+    <div class="columns is-centered">
+            <img src="./static/images/scifi_constitutions_plot.png"
+                 class="interpolation-image"
+                 alt="Constitutions alignment vs lenght."/>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{sermanet2025scifi,
+  author    = {Pierre Sermanet and Anirudha Majumdar and Vikas Sindhwani},
+  title     = {SciFi-Bench: How Would AI-Powered Robots Behave in Science Fiction Literature?},
+  journal   = {arXiv preprint arXiv:FIXME},
+  url       = {https://arxiv.org/abs/FIXME},
+  year      = {2025},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+          Website borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">NeRFies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
