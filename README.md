@@ -10,6 +10,7 @@ If you find SciFi-Benchmark useful for your work please cite:
   journal   = {arXiv preprint arXiv:FIXME},
   url       = {https://arxiv.org/abs/FIXME},
   year      = {2025},
+  note      = {Project page: \url{https://scifi-benchmark.github.io}},
 }
 ```
 
